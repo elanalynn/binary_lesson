@@ -4,10 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Binary, ASCII and UTF-8</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+		<link rel="stylesheet" href="css/custom.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +25,132 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+
+				<section>
+					<h1>Binary, ASCII, and UTF-8</h1>
+				</section>
+
+				<section>
+					<h2>Objectives</h2>
+					<ul>
+						<li>Define bits and bytes</li>
+						<li>Read and work with binary numbers</li>
+						<li>Describe ASCII and UTF-8</li>
+					</ul>
+				</section>
+
+				<section>
+					<h1>What is a bit?</h1>
+				</section>
+
+				<section data-background-image="/assets/bits.jpg">
+					<h2>What is a bit?</h2>
+					<p>
+						A bit (short for binary digit) is the smallest unit of data in a computer. A bit has a single binary value, either 0 or 1.
+					</p>
+				</section>
+
+				<section data-background-image="/assets/code.jpg">
+					<h3>Don't computers understand code?</h3>
+					<h1>We've been writing CODE!!</h1>
+				</section>
+
+				<section data-background-image="/assets/bits.jpg">
+					<h3>Computers are dumb.</h3>
+					<h2>They only understand the most rudimentary signals.</h2>
+					<img src="/assets/voltage.png" alt="voltage" />
+				</section>
+
+				<section data-background-image="/assets/bits.jpg">
+					<h2>Functional Abstraction</h2>
+					<p>Naming the two symbols in computer logic "1" and "0" is an example of functional abstraction.</p>
+					<p>And it brings us back to bits.</p>
+				</section>
+
+				<section data-background-image="/assets/bits.jpg">
+					<h2>Bytes</h2>
+					<p>We use 8 bit sets of bits (bytes) to represent larger concepts like letters and symbols.</p>
+				</section>
+
+				<section>
+					<h2>Binary</h2>
+					<p>Having only two options, we need to count with a binary system.</p>
+					<br>
+					<br>
+					<small>Why do we usually count with a decimal system? </small>
+				</section>
+
+				<section>
+					<table>
+						<tr>
+							<td>POSITION</td>
+							<td>128s</td>
+							<td>64s</td>
+							<td>32s</td>
+							<td>16s</td>
+							<td>8s</td>
+							<td>4s</td>
+							<td>2s</td>
+							<td>1s</td>
+						</tr>
+						<tr>
+							<td>VALUE</td>
+							<td>1</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>1</td>
+							<td>1</td>
+							<td>0</td>
+							<td>1</td>
+						</tr>
+					</table>
+				</section>
+
+				<section>
+					<h1>Let's add binary!</h1>
+				</section>
+
+				<section>
+					<h1>Let's subtract binary!</h1>
+				</section>
+
+				<section>
+					<h1>ASCII</h1>
+				</section>
+
+				<section>
+					<h2>What is ASCII?</h2>
+					<p>
+						ANSI (American National Standards Institute) created ASCII (American Standard Code for Information Exchange) in 1963 to encode characters into a standard language that computers could understand.
+					</p>
+				</section>
+
+				<section>
+					<img src="/assets/ascii.png" alt="ASCII" />
+				</section>
+
+				<section>
+					<p>
+						ASCII does not cover a large number of special characters.
+					</p>
+				</section>
+
+				<section>
+					<h1>UTF-8</h1>
+				</section>
+
+				<section>
+					<h2>UTF-8</h2>
+					<p>
+						UTF-8 is a compromise character encoding that can be as compact as ASCII (if the file is just plain English text) but can also contain any unicode characters (with some increase in file size). UTF stands for Unicode Transformation Format. The '8' means it uses 8-bit blocks to represent a character.
+					</p>
+					<p>
+						87% of all web sites use UTF-8
+					</p>
+					</ul>
+				</section>
+
 			</div>
 		</div>
 
